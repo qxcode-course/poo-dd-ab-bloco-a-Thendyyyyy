@@ -1,0 +1,89 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-04_07-42-38",
+            "content": "@@ -159,19 +159,23 @@\n     def \n+__\n str\n+__\n (self):%0A\n@@ -1312,67 +1312,4 @@\n eak;\n-%0A        elif arg%5B0%5D == %22show%22:%0A            print(carro.str());\n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-10-04_07-44-45",
+            "content": "@@ -1371,17 +1371,4 @@\n ());\n-%0A%0A__main__();\n",
+            "lines": "52"
+        },
+        {
+            "label": "2025-10-04_07-45-06",
+            "content": "@@ -192,17 +192,16 @@\n  f%22pass:\n- \n %7Bself.pa\n@@ -210,17 +210,16 @@\n _%7D, gas:\n- \n %7Bself.ga\n@@ -225,17 +225,16 @@\n as%7D, km:\n- \n %7Bself.km\n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-10-04_07-45-27",
+            "content": "@@ -238,17 +238,16 @@\n elf.km%7D%22\n-;\n %0A%0A    de\n@@ -1374,191 +1374,8 @@\n ());\n-%0A        elif arg%5B0%5D == %22enter%22:%0A            carro.enter();%0A        elif arg%5B0%5D == %22leave%22:%0A            carro.leave();%0A        elif arg%5B0%5D == %22fuel%22:%0A            carro.fuelUp(arg%5B1%5D);\n %0A%0A__\n",
+            "lines": "54"
+        },
+        {
+            "label": "2025-10-04_07-50-56",
+            "content": "@@ -572,13 +572,8 @@\n ount\n-: int\n ):%0A \n",
+            "lines": "60"
+        },
+        {
+            "label": "2025-10-04_07-51-38",
+            "content": "@@ -1530,37 +1530,8 @@\n l%22:%0A\n-            amount = arg%5B1%5D;%0A\n     \n@@ -1552,21 +1552,21 @@\n fuelUp(a\n-mount\n+rg%5B1%5D\n );%0A%0A__ma\n",
+            "lines": "60"
+        },
+        {
+            "label": "2025-10-04_07-54-03",
+            "content": "@@ -159,23 +159,19 @@\n     def \n-__\n str\n-__\n (self):%0A\n@@ -1373,15 +1373,11 @@\n rro.\n-__\n str\n-__\n ());\n@@ -1551,19 +1551,14 @@\n t = \n-int(\n arg%5B1%5D\n-)\n ;%0A  \n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-10-04_07-56-56",
+            "content": "@@ -359,22 +359,22 @@\n         \n-print(\n+return\n %22fail: l\n@@ -399,17 +399,16 @@\n tingido%22\n-)\n ;%0A%0A    d\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-10-04_07-57-51",
+            "content": "@@ -502,30 +502,30 @@\n             \n-print(\n+return\n %22fail: nao h\n@@ -543,17 +543,16 @@\n o carro%22\n-)\n ;%0A%0A    d\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-10-04_07-58-26",
+            "content": "@@ -710,21 +710,16 @@\n distance\n-: int\n ):%0A     \n@@ -1607,113 +1607,8 @@\n nt);\n-%0A        elif arg%5B0%5D == %22drive%22:%0A            distancia = int(arg%5B1%5D);%0A            carro.drive(distancia);\n %0A%0A__\n",
+            "lines": "61"
+        },
+        {
+            "label": "2025-10-04_08-00-30",
+            "content": "@@ -750,38 +750,38 @@\n  0:%0A            \n-print(\n+return\n %22fail: nao ha ni\n@@ -795,17 +795,16 @@\n o carro%22\n-)\n ;%0A      \n@@ -833,30 +833,30 @@\n             \n-print(\n+return\n %22fail: tanqu\n@@ -863,17 +863,16 @@\n e vazio%22\n-)\n ;%0A      \n",
+            "lines": "64"
+        },
+        {
+            "label": "2025-10-04_08-01-17",
+            "content": "@@ -1054,21 +1054,22 @@\n         \n-print\n+return\n (f%22fail:\n",
+            "lines": "64"
+        },
+        {
+            "label": "2025-10-04_08-02-09",
+            "content": "@@ -1083,17 +1083,17 @@\n vazio ap\n-o\n+%C3%B3\n s andar \n",
+            "lines": "64"
+        },
+        {
+            "label": "2025-10-04_08-02-19",
+            "content": "@@ -1008,32 +1008,58 @@\n km += distance;%0A\n+            self.gas = 0;%0A\n             prin\n@@ -1111,34 +1111,8 @@\n m%22)%0A\n-            self.gas = 0;%0A\n     \n",
+            "lines": "64"
+        },
+        {
+            "label": "2025-10-04_08-02-49",
+            "content": "@@ -1072,19 +1072,18 @@\n r %7Bself.\n-gas\n+km\n %7D km%22)%0A \n",
+            "lines": "64"
+        },
+        {
+            "label": "2025-10-04_08-03-40",
+            "content": "@@ -987,42 +987,8 @@\n se:%0A\n-            travelled = self.gas;%0A\n     \n@@ -1006,25 +1006,24 @@\n f.km += \n-travelled\n+distance\n ;%0A      \n@@ -1071,17 +1071,16 @@\n ar %7B\n-travelled\n+self.gas\n %7D km\n@@ -1719,71 +1719,8 @@\n ia);\n-%0A        else:%0A            print(%22fail: comando desconhecido%22);\n %0A%0A__\n",
+            "lines": "64"
+        },
+        {
+            "label": "2025-10-04_08-09-30",
+            "content": "class Carro:\n    def __init__(self):\n        self.pass_ = 0;\n        self.km = 0;\n        self.passMax = 2;\n        self.gas = 0;\n        self.gasMax = 100;\n\n    def __str__(self):\n        return f\"pass: {self.pass_}, gas: {self.gas}, km: {self.km}\";\n\n    def enter(self):\n        if self.pass_ < self.passMax:\n            self.pass_ += 1;\n        else:\n            print(\"fail: limite de pessoas atingido\");\n\n    def leave(self):\n        if self.pass_ > 0:\n            self.pass_ -= 1;\n        else:\n            print(\"fail: nao ha ninguem no carro\");\n\n    def fuelUp(self, amount: int):\n        self.gas += amount;\n        if self.gas > self.gasMax:\n            self.gas = self.gasMax;\n\n    def drive(self, distance: int):\n        if self.pass_ == 0:\n            print(\"fail: nao ha ninguem no carro\");\n        elif self.gas == 0:\n            print(\"fail: tanque vazio\");\n        elif distance <= self.gas:\n            self.gas -= distance;\n            self.km += distance;\n        else:\n            travelled = self.gas;\n            self.km += travelled;\n            print(f\"fail: tanque vazio apos andar {travelled} km\")\n            self.gas = 0;\n        \ndef __main__():\n    carro = Carro();\n    while True:\n        line: str = input();\n        print(f\"${line}\", end =\"\\n\");\n        arg: list[str] = line.split(\" \");\n\n        if arg[0] == \"end\":\n            break;\n        elif arg[0] == \"show\":\n            print(carro.__str__());\n        elif arg[0] == \"enter\":\n            carro.enter();\n        elif arg[0] == \"leave\":\n            carro.leave();\n        elif arg[0] == \"fuel\":\n            amount = int(arg[1]);\n            carro.fuelUp(amount);\n        elif arg[0] == \"drive\":\n            distancia = int(arg[1]);\n            carro.drive(distancia);\n        else:\n            print(\"fail: comando desconhecido\");\n\n__main__();",
+            "lines": "67"
+        }
+    ]
+}
